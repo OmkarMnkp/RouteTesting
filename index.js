@@ -9,10 +9,17 @@ app.use(express.json());
 const PORT = 8000;
 
 // array 
+
+
 const products = [
     {id:1,name:'T-shirt',price:'300',color:'red'},
     {id:2,name:'Cargo',price:'500',color:'grey'},
     {id:3,name:'hoodie',price:'1200',color:'yellow'},
+    {id:4,name:'BellBottom',price:'1100',color:'green'},
+    {id:5,name:'WideLeg',price:'1500',color:'yellow'},
+    {id:6,name:'mid-torso',price:'1200',color:'blue'},
+
+
 
 ]
 
